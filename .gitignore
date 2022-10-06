@@ -1,0 +1,8 @@
+# 忽略所有 .a 的文件
+*.a
+# 忽略任何目录下的当前目录下的 TODO 文件 ，而不忽略 subdir/TODO
+/TODO
+# 忽略任何目录下的名为bulid 的文件夹
+bulid/
+# 忽略 doc/notes.txt ,但不忽略 doc/server/arch.txt
+doc/*.txt
