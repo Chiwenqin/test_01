@@ -1,3 +1,5 @@
+# 忽略 index.css
+# index.css
 # 忽略所有 .a 的文件
 *.a
 # 忽略任何目录下的当前目录下的 TODO 文件 ，而不忽略 subdir/TODO
@@ -6,3 +8,8 @@
 bulid/
 # 忽略 doc/notes.txt ,但不忽略 doc/server/arch.txt
 doc/*.txt
+# 跟踪所有的 lib.a ，即使你前面忽略了 .a 文件
+!lib.a
+
+# 忽略 doc/ 目录机器所有子目录下的 .pdf 文件
+doc/**/*.pdf
